@@ -11,4 +11,5 @@ For the development of the online booking system based on a micro-service archit
 
 ### Structure
 The development of the solution use the Ask pattern structure and the Business-Handshake pattern structure. The ask pattern was used for the creation of the ephemeral child actor of the SystemService, and the business-handshake pattern was implemented between the ephemeral child and the ReservationService to handle reservations. See Figure below.
+
 ![online Booking system flow](bookingStructure.png)
